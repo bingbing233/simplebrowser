@@ -1,1 +1,0 @@
-this is a simplebrowser app base on webview
