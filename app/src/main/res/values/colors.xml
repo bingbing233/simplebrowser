@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--#00574B原本状态栏的颜色-->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#008577</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mgreen">#0F9D58</color>
+    <color name="mpink">#FB7299</color>
+    <color name="mred">#DB2C1F</color>
+    <color name="mblue">#2196F3</color>
+</resources>

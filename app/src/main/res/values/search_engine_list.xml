@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="engine_entries">
+        <item>Baidu</item>
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Sogou</item>
+    </string-array>
+    <string-array name="engine_entries_values">
+        <item>Baidu</item>
+        <item>Google</item>
+        <item>Bing</item>
+        <item>Sogou</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="style"
+        android:title="个性化设置">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="profile"
+            android:summaryOff="不显示中央贴图"
+            android:summaryOn="显示中央贴图"
+            android:title="头像" />
+        <Preference
+            android:key="whichProfile"
+            android:summary="(图片过大可能会导致打开速度变慢，请选择合适的图片)"
+            android:title="自定义头像" />
+        <Preference
+            android:key="background"
+            android:summary="就是换背景图"
+            android:title="背景图" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="请选择一种颜色"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_entries_value"
+            android:key="color"
+            android:summary="设置完回主页"
+            android:title="强调色" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="浏览设置">
+        <ListPreference
+            android:summary=""
+            android:title="搜索引擎"
+            android:entries="@array/engine_entries"
+            android:entryValues="@array/engine_entries_values"
+            android:key="search"
+            android:dialogTitle="请选择搜索引擎"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其他">
+        <Preference
+            android:key="version"
+            android:summary="1.3"
+            android:title="当前版本" />
+        <Preference
+            android:key="authority"
+            android:summary="酷安@火丙"
+            android:title="关于作者" />
+    </PreferenceCategory>
+</PreferenceScreen>
